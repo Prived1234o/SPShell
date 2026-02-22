@@ -59,9 +59,7 @@ int main() {
 	} else if (strncmp(cmd, "potato", 6) == 0) {
 		printf("Картошка!\n");
 		sleep(1);
-		printf("Картошка\n");
-		printf("Картошка\n");
-		printf("Картошка!\n");
+		printf("Картошка\nКартошка\nКартошка!\n");
 	} else {
 	    system(cmd);
 	}
